@@ -15,6 +15,11 @@
   text-rendering: auto;
   line-height: 1; }
 
+ .customers-box {
+		position: relative;
+    left: 10px;
+	}
+
 .fa-lg {
   font-size: 1.33333em;
   line-height: 0.75em;

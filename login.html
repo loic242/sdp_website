@@ -15,108 +15,96 @@
 </head>
 <body>
     <!-- Navigation -->
-	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-            <img src="images/logo.png" alt="logo" />
-			<a class="nav-link nav-color" href="#">Sustainability Diversity Project</a>
-            </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="fas fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-					   <a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-					   <a class="nav-link" href="about.html">About</a>
-					</li>
-					<li class="nav-item">
-					   <a class="nav-link" href="blog-post.html">Blog</a>
-					</li>
-					<li class="nav-item">
-					   <a class="nav-link" href="contact.html">Contact</a>
-					</li>
-				<li class="nav-item">
-				 <a class="nav-link active" href="faq.html">FaQ</a>
-			   </li>
-				 </ul>
-            </div>
-        </div>
-    </nav>
+ <!-- Navigation -->
+ <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
+	<div class="container">
+		
+		<a class="navbar-brand" href="index.html">
+		<img src="images/logo.png" alt="logo" />
+		<a class="nav-link nav-color" href="#">Sustainability Diversity Project</a>  <!-- Need to be change -->
+		</a>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="fas fa-bars"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+		   <ul class="navbar-nav ml-auto">
+			  <li class="nav-item">
+				 <a class="nav-link active" href="index.html">Home</a>
+			  </li>
+			  <li class="nav-item">
+				 <a class="nav-link active" href="services.html">Our services</a>
+			  </li>
+			  <li class="nav-item">
+				 <a class="nav-link" href="about.html">About</a>
+			  </li>
+			  <li class="nav-item">
+				 <a class="nav-link" href="blog-post.html">Blog</a>
+			  </li>
+			  <li class="nav-item">
+				 <a class="nav-link" href="contact.html">Contact</a>
+			  </li>
+		  <li class="nav-item">
+		   <a class="nav-link" href="login.html">Log in</a>
+		 </li>
+		 <li class="nav-item">
+		  <a class="nav-link" href="singup.html">Sing Up</a>
+		</li>
+		   </ul>
+		</div>
+	</div>
+</nav>
 
 	<!-- full Title -->
 	<div class="full-title" style="background-image: url('images/blog-img-02.jpeg')">
 		<div class="container">
 			<!-- Page Heading/Breadcrumbs -->
-			<h1 class="mt-4 mb-3">FAQ
+			<h1 class="mt-4 mb-3">LOG IN
 			</h1>
 		</div>
 	</div>
 	
     <!-- Page Content -->
-    <div class="container">
-		<div class="breadcrumb-main">
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item">
-					<a href="index.html">Home</a>
-				</li>
-				<li class="breadcrumb-item active">FAQ</li>
-			</ol>
-		</div>
-
-		<div class="faq-main">
-			<div class="" id="accordion" role="tablist" aria-multiselectable="true">
-				<div class="card accordion-single">
-				  <div class="card-header" role="tab" id="headingOne">
-					<h5 class="mb-0">
-					  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What services does the SDP provide</a>
-					</h5>
+    <section class="vh-100" style="background-color: #146657;">
+		<div class="container py-5 h-100">
+		  <div class="row d-flex justify-content-center align-items-center h-100">
+			<div class="col-12 col-md-8 col-lg-6 col-xl-5">
+			  <div class="card shadow-2-strong" style="border-radius: 1rem;">
+				<div class="card-body p-5 text-center">
+	  
+				  <h3 class="mb-5">Sign in</h3>
+	  
+				  <div class="form-outline mb-4">
+					<input type="email" id="typeEmailX-2" class="form-control form-control-lg" />
+					<label class="form-label" for="typeEmailX-2">Email</label>
 				  </div>
-
-				  <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-					<div class="card-body">
-						We help social and environmental entrepreneurs succeed. For example,
-						 we helped Kelly by working on her garden, the Oude Molen Food Garden.
-						  We cleaned the garden, pulled weeds, made paths out of straws, and made decorations for her
-						   garden. The Oude Molen Food Garden is frequently visited and hosts events. We assisted them in the 
-						   planning and execution of their events and activities.
-					</div>
+	  
+				  <div class="form-outline mb-4">
+					<input type="password" id="typePasswordX-2" class="form-control form-control-lg" />
+					<label class="form-label" for="typePasswordX-2">Password</label>
 				  </div>
+	  
+				  <!-- Checkbox -->
+				  <div class="form-check d-flex justify-content-start mb-4">
+					<input class="form-check-input" type="checkbox" value="" id="form1Example3" />
+					<label class="form-check-label" for="form1Example3"> Remember password </label>
+				  </div>
+	  
+				  <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>
+	  
+				  <hr class="my-4">
+	  
+				  <button class="btn btn-lg btn-block btn-primary" style="background-color: #dd4b39;"
+					type="submit"><i class="fab fa-google me-2"></i> Sign in with google</button>
+				  <button class="btn btn-lg btn-block btn-primary mb-2" style="background-color: #3b5998;"
+					type="submit"><i class="fab fa-facebook-f me-2"></i>Sign in with facebook</button>
+	  
 				</div>
-				<div class="card accordion-single">
-				  <div class="card-header" role="tab" id="headingTwo">
-					<h5 class="mb-0">
-					  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">What are the long term objectives of the SDP</a>
-					</h5>
-				  </div>
-				  <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-					<div class="card-body">
-						We want as many people as possible to attend our events and become interested in environmental issues. We believe that 
-						only by working together can crises like climate change and food scarcity be addressed. 
-						That is why we try to teach and promote healthier habits in our communities in the hopes of starting a long-term trend.
-					</div>
-				  </div>
-				</div>
-				<div class="card accordion-single">
-				  <div class="card-header" role="tab" id="headingThree">
-					<h5 class="mb-0">
-					  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">How I can make a contribution</a>
-					</h5>
-				  </div>
-				  <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-					<div class="card-body">
-						Anyone can help; even buying your vegetables from a local farmer makes a significant difference. Growing your own vegetables in
-						 your garden is another way to gain self-sufficiency.
-						 Teaching and talking to your friends about the advantages of living an environmentally conscious life is also a significant contribution.
-					</div>
-				  </div>
-				</div>
+			  </div>
 			</div>
+		  </div>
 		</div>
-
-    </div>
+	  </section>
+	
     <!-- /.container -->
 
     <!--footer starts from here-->

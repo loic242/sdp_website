@@ -366,8 +366,9 @@ footer p {
 /* ---- All Pages CSS ---- */
 
 .full-title{
+	background: no-repeat;
+	background-size: auto;
 	padding: 80px 0px;
-	background: url(../images/all-title-bg.jpg) no-repeat center;
 	position: relative;
 }
 .full-title:before{
@@ -413,26 +414,7 @@ footer p {
 	box-shadow: 3px 5px 15px rgba(0,0,0, .15);
 	border: none;	
 }
-.team-members-box .card .card-footer{
-	background: #4eae3a;
-}
-.team-members-box .card .card-footer ul{
-	margin: 0px;
-	padding: 0px;
-}
-.team-members-box .card .card-footer ul li{
-	display: inline-block;
-}
-.team-members-box .card .card-footer ul li a{
-	width: 32px;
-	height: 32px;
-	line-height: 32px;
-	background: #4e3914;
-	color: #ffffff;
-	display: inline-block;
-	border-radius: 4.8px;
-	font-size: 14px;
-}
+
 .customers-box h2{
 	font-weight: 600;
 	font-size: 24px;

@@ -1,0 +1,52 @@
+.card1{
+        position: relative;
+ 
+    overflow: hidden;
+}
+
+.card1 .card {
+    position: relative;
+    overflow: hidden;
+}
+.card1 .text-center::before{
+    content: '';
+    position: absolute;
+    bottom: -180px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #09884f 50%, transparent);
+    transition: 0.5s;
+    z-index: 1;
+}
+.card1:hover .text-center::before{
+    bottom: 0px;
+    }
+    .card1 .text-center img {
+        width: 100%;
+        transition: 0.5s;
+    }
+    .card1:hover .text-center img {
+        transform: translateY(-50px);
+        filter: blur(5px);
+    }
+    .card1 .card-body{
+        position: absolute;
+        bottom: -175px;
+        left: 0;
+        padding: 20px;
+        width: 100%;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    .card1:hover .card-body{
+        bottom: 0px;
+    }
+    .card1 .card-body h2{
+        color: #ffffff;
+    }
+    .card1 .card-body h6{
+        color: black;
+    }
+    .card1 .card-body p{
+        color: black;
+    }

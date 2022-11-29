@@ -38,6 +38,8 @@
         z-index: 2;
         transition: 0.5s;
     }
+
+
     .card1:hover .card-body{
         bottom: 0px;
     }
@@ -48,5 +50,74 @@
         color: black;
     }
     .card1 .card-body p{
+        color: black;
+    }
+
+
+    .card1 .card-js {
+        position: absolute;
+        bottom: -155px;
+        left: 0;
+        padding: 20px;
+        width: 100%;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    .card1:hover .card-js{
+        bottom: 0px;
+    }
+    .card1 .card-js h2{
+        color: #ffffff;
+    }
+    .card1 .card-js h6{
+        color: black;
+    }
+    .card1 .card-js p{
+        color: black;
+    }
+
+
+    .card1 .card-jetro {
+        position: absolute;
+        bottom: -195px;
+        left: 0;
+        padding: 20px;
+        width: 100%;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    .card1:hover .card-jetro {
+        bottom: 0px;
+    }
+    .card1 .card-jetro h2{
+        color: #ffffff;
+    }
+    .card1 .card-jetro h6{
+        color: black;
+    }
+    .card1 .card-jetro p{
+        color: black;
+    }
+
+
+    .card1 .card-jordan {
+        position: absolute;
+        bottom: -150px;
+        left: 0;
+        padding: 20px;
+        width: 100%;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    .card1:hover .card-jordan {
+        bottom: 0px;
+    }
+    .card1 .card-jordan h2{
+        color: #ffffff;
+    }
+    .card1 .card-jordan h6{
+        color: black;
+    }
+    .card1 .card-jordan p{
         color: black;
     }

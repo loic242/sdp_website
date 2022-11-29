@@ -15,6 +15,18 @@
   text-rendering: auto;
   line-height: 1; }
 
+
+  .mb-4 {
+    font-size: smaller;
+  }
+  .mb-4 .mt-0 {
+    font-size: small;
+  }
+  #form2Example33 {
+    position: relative;
+    right: 10px;
+    bottom: 2px;
+  }
   .invisible {
     display: inline;
     visibility: hidden;
